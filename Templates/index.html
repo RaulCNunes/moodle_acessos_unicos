@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload CSV</title>
+</head>
+<body>
+    <h1>Upload de CSV e Parâmetros</h1>
+    <form action="/" method="post" enctype="multipart/form-data">
+        <label for="file">Escolha um arquivo CSV:</label>
+        <input type="file" name="file" id="file" required><br><br>
+
+        <label for="contexto">Contexto:</label>
+        <input type="text" name="contexto" id="contexto" required><br><br>
+        
+        <label for="componente">Componente:</label>
+        <input type="text" name="componente" id="componente" required><br><br>
+
+        <label for="nome_evento">Nome do Evento:</label>
+        <input type="text" name="nome_evento" id="nome_evento" required><br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
